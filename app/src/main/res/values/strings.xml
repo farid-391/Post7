@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Farid Post7</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tab2_title"><![CDATA[Volume & Luas Permukaan Tabung]]></string>
+    <string name="input_jari">Masukkan jari-jari (r) </string>
+    <string name="input_tinggi">Masukkan tinggi (t)</string>
+    <string name="lp_tv">Luas Permukaan Tabung</string>
+    <string name="v_tv">Volume Tabung</string>
+    <string name="intent_aplikasi">Intent Aplikasi</string>
+    <string name="rumus_v">V = π × r × r × t</string>
+    <string name="rumus_lp">L = 2 × π × r × (r + t)</string>
+</resources>

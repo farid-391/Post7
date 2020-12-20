@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Tab1"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/yourImage"
+            android:src="@drawable/farid_navy"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="100dp"
+            app:civ_border_color="@color/navy"
+            app:civ_border_width="3dp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Farid Afgar"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:textColor="@color/navy_dark"
+            android:gravity="center"
+            android:id="@+id/name"
+            android:layout_below="@id/yourImage"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="40dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1800018391"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/nim"
+            android:layout_below="@id/name"
+            android:textColor="@color/navy_dark"
+            android:gravity="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sabtu, 10.30"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:id="@+id/slot"
+            android:layout_below="@id/nim"
+            android:textColor="@color/navy_dark"
+            android:gravity="center" />
+    </RelativeLayout>
+</FrameLayout>
